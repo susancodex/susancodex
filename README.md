@@ -1,16 +1,28 @@
+<!-- Header Banner -->
 <div align="center">
-  <img src="https://susanacharya1.com.np/lovable-uploads/5058cdc6-c2f4-4cb1-b8cc-303bca9df609.png" alt="Susan Acharya" width="180" style="border-radius: 50%;" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Susan%20Acharya&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Junior%20Django%20%26%20Python%20Developer&descAlignY=55&descSize=18" width="100%" />
+</div>
 
-  # Hi there, I'm Susan Acharya <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30">
+<!-- Typing Animation -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=6366F1&center=true&vCenter=true&multiline=false&width=650&lines=Hi+there!+I'm+Susan+Acharya+%F0%9F%91%8B;Junior+Django+%26+Python+Developer;BSc.+CSIT+Student+%40+TU;Building+Scalable+Web+Applications;Open+to+Internship+Opportunities!" alt="Typing SVG" />
+</div>
 
-  **Junior Django & Python Developer | BSc. CSIT Student**
+<br/>
 
-  [![Portfolio](https://img.shields.io/badge/Portfolio-susanacharya1.com.np-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.susanacharya1.com.np)
+<!-- Badges Row -->
+<div align="center">
+
+  [![Portfolio](https://img.shields.io/badge/Portfolio-susanacharya1.com.np-4F46E5?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.susanacharya1.com.np)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-susan--acharya1618-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/susan-acharya1618)
   [![GitHub](https://img.shields.io/badge/GitHub-susancodex-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/susancodex)
-  [![Location](https://img.shields.io/badge/Location-Kathmandu,%20Nepal-red?style=for-the-badge&logo=google-maps&logoColor=white)](#)
+  [![Location](https://img.shields.io/badge/Kathmandu-Nepal-DC2626?style=for-the-badge&logo=google-maps&logoColor=white)](#)
 
-  ![Profile Views](https://komarev.com/ghpvc/?username=susancodex&color=blue&style=flat-square&label=Profile+Views)
+  <br/>
+
+  ![Profile Views](https://komarev.com/ghpvc/?username=susancodex&color=6366F1&style=for-the-badge&label=Profile+Views)
+  ![GitHub followers](https://img.shields.io/github/followers/susancodex?style=for-the-badge&color=6366F1&labelColor=1c1917&logo=github)
+  ![GitHub Stars](https://img.shields.io/github/stars/susancodex?style=for-the-badge&color=6366F1&labelColor=1c1917&logo=github)
 
 </div>
 
@@ -18,11 +30,36 @@
 
 ## About Me
 
-Motivated junior Python and web developer with hands-on experience building scalable, user-friendly web applications using Django and Python. Skilled in RESTful API design, modern web technologies, and responsive design. Currently pursuing **BSc. CSIT** at **Bhaktapur Multiple Campus, Tribhuvan University**. Strong problem solver and team player, passionate about clean code and innovative solutions.
+<img align="right" src="https://susanacharya1.com.np/lovable-uploads/5058cdc6-c2f4-4cb1-b8cc-303bca9df609.png" alt="Susan Acharya" width="220" style="border-radius:12px; margin-left:20px;" />
 
-- Currently building full-stack web applications with **Django** and **Django REST Framework**
-- Expanding into **JavaScript**, **TypeScript**, and modern frontend frameworks
-- Open to internship and collaboration opportunities
+Motivated **junior Python and web developer** with hands-on experience building scalable, user-friendly web applications using Django and Python. Skilled in RESTful API design, modern web technologies, and responsive design.
+
+- Currently pursuing **BSc. CSIT** at Bhaktapur Multiple Campus, Tribhuvan University (IOST)
+- Building full-stack apps with **Django**, **DRF**, **JavaScript** & **TypeScript**
+- Certified in **Python** — from beginner to data science applications
+- Strong believer in clean, readable code and consistent learning
+- Open to **internship and collaboration** opportunities
+
+```python
+class SusanAcharya:
+    def __init__(self):
+        self.name       = "Susan Acharya"
+        self.location   = "Kathmandu, Nepal"
+        self.degree     = "BSc. CSIT @ Tribhuvan University"
+        self.languages  = ["Python", "JavaScript", "TypeScript"]
+        self.frameworks = ["Django", "DRF", "Bootstrap"]
+        self.databases  = ["MySQL", "PostgreSQL", "SQLite3"]
+        self.currently  = "Building full-stack web applications"
+        self.looking_for = "Internship & Collaboration"
+
+    def say_hi(self):
+        print("Thanks for visiting my profile! Let's build something great.")
+
+me = SusanAcharya()
+me.say_hi()
+```
+
+<br clear="right"/>
 
 ---
 
@@ -30,28 +67,25 @@ Motivated junior Python and web developer with hands-on experience building scal
 
 <div align="center">
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+### Languages & Frameworks
+[![Skills](https://skillicons.dev/icons?i=python,django,js,ts,html,css,bootstrap&perline=7)](https://skillicons.dev)
 
-### Frameworks & Libraries
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Django REST](https://img.shields.io/badge/Django%20REST-ff1709?style=for-the-badge&logo=django&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+### Databases & Tools
+[![Skills](https://skillicons.dev/icons?i=mysql,postgresql,sqlite,git,github,vscode,pycharm&perline=7)](https://skillicons.dev)
 
-### Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+</div>
 
-### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
+<br/>
+
+<div align="center">
+
+| Category | Technologies |
+|----------|-------------|
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| **Backend** | ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![DRF](https://img.shields.io/badge/Django_REST-ff1709?style=flat-square&logo=django&logoColor=white) |
+| **Frontend** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white) |
+| **Databases** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) |
+| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) |
 
 </div>
 
@@ -59,17 +93,21 @@ Motivated junior Python and web developer with hands-on experience building scal
 
 ## Featured Projects
 
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| [**Finance Tracker**](https://github.com/susancodex/Finance_Tracker) | Full-stack finance tracking application with expense management | JavaScript, Python, CSS |
-| [**Task Manager API**](https://github.com/susancodex/task-manager-api) | RESTful API for task management with CRUD operations | JavaScript, Python, CSS |
-| [**E-Commerce Platform**](https://github.com/susancodex/django_ecommerce) | Full-stack e-commerce solution with authentication and admin dashboard | Python, Django, HTML |
-| [**Student Management System**](https://github.com/susancodex/student_management_system) | System for managing student records and grades with Chart.js visualization | Python, Django, HTML |
-| [**To-Do List App**](https://github.com/susancodex/todo-list) | User-authenticated to-do list with registration, login, and task management | Python, Django, HTML |
-| [**CRUD API**](https://github.com/susancodex/CRUD-API) | RESTful CRUD API built with Django REST Framework | Python, DRF |
-| [**Expense CRUD API**](https://github.com/susancodex/EXPENSE-CRUD-API) | Django REST API for expense management using generic views | Python, DRF |
-| [**Python Projects**](https://github.com/susancodex/Python-Project) | Collection of beginner-friendly Python projects: games and utilities | Python |
-| [**Portfolio Website**](https://github.com/susancodex/Susan-Acharya-Portfolio) | Personal portfolio website | TypeScript, CSS |
+<div align="center">
+
+| Project | Description | Tech | Repo |
+|---------|-------------|------|------|
+| **Finance Tracker** | Full-stack personal finance app with expense management and visualizations | `JS` `Python` `CSS` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/susancodex/Finance_Tracker) |
+| **Task Manager API** | RESTful API for task management with full CRUD, built with Django REST Framework | `JS` `Python` `DRF` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/susancodex/task-manager-api) |
+| **E-Commerce Platform** | Full-stack e-commerce with user auth, payment integration & admin dashboard | `Python` `Django` `MySQL` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/susancodex/django_ecommerce) |
+| **Student Management System** | CRUD system for student records with grade charts via Chart.js | `Python` `Django` `SQLite` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/susancodex/student_management_system) |
+| **To-Do List App** | User-authenticated to-do list with registration, login, and task management | `Python` `Django` `HTML` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/susancodex/todo-list) |
+| **CRUD API** | Clean RESTful CRUD API built with Django REST Framework generic views | `Python` `DRF` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/susancodex/CRUD-API) |
+| **Expense CRUD API** | Django REST API for expense management using DRF generic views | `Python` `DRF` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/susancodex/EXPENSE-CRUD-API) |
+| **Python Projects** | Beginner-friendly Python projects: Password Generator, Rock Paper Scissors, Treasure Island | `Python` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/susancodex/Python-Project) |
+| **Portfolio Website** | Personal portfolio site built with TypeScript and modern web tech | `TypeScript` `CSS` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/susancodex/Susan-Acharya-Portfolio) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://www.susanacharya1.com.np) |
+
+</div>
 
 ---
 
@@ -77,8 +115,11 @@ Motivated junior Python and web developer with hands-on experience building scal
 
 <div align="center">
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=susancodex&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170" />
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=susancodex&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="170" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=susancodex&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180" />
+&nbsp;
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=susancodex&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="180" />
+
+<br/>
 
 <img src="https://streak-stats.demolab.com/?user=susancodex&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
@@ -86,20 +127,72 @@ Motivated junior Python and web developer with hands-on experience building scal
 
 ---
 
-## Certifications
+## Activity Graph
 
-- **Python For Beginners** -- Learn All The Basics Of Python
-- **Python For Data Science** -- Real Time Exercises
-- **Python Programming** -- Python Bootcamp For Beginners
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=susancodex&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Contribution Activity Graph" />
+</div>
 
 ---
 
-## Education
+## Profile Summary
 
-**BSc. Computer Science and Information Technology (CSIT)**
-Bhaktapur Multiple Campus, Tribhuvan University (IOST) -- Currently Pursuing
+<div align="center">
 
-Core coursework: Data Structures & Algorithms, Web Technologies, Database Management Systems, Operating Systems, Software Engineering, OOP, Computer Networks, Java, .NET
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=susancodex&theme=tokyonight" height="160" />
+&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=susancodex&theme=tokyonight" height="160" />
+&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=susancodex&theme=tokyonight" height="160" />
+
+</div>
+
+---
+
+## Education & Certifications
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Education
+
+**BSc. Computer Science and Information Technology**
+Bhaktapur Multiple Campus, Tribhuvan University (IOST)
+*Currently Pursuing*
+
+**Core Subjects:**
+- Data Structures & Algorithms
+- Web Technologies & Database Management
+- Operating Systems & Software Engineering
+- Object-Oriented Programming (Java, .NET)
+- Computer Networks & Architecture
+
+</td>
+<td width="50%" valign="top">
+
+### Certifications
+
+**Python For Beginners** — Learn All The Basics Of Python
+- Variables, data types, loops, functions, data structures
+
+**Python For Data Science** — Real Time Exercises
+- NumPy, statistics, data manipulation
+
+**Python Programming** — Python Bootcamp For Beginners
+- Core Python concepts to build a solid foundation
+
+</td>
+</tr>
+</table>
+
+---
+
+## Random Dev Quote
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" width="100%" />
+</div>
 
 ---
 
@@ -107,14 +200,23 @@ Core coursework: Data Structures & Algorithms, Web Technologies, Database Manage
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-susanacharya1.com.np-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.susanacharya1.com.np)
+*I'm always open to interesting conversations, collaborations, and opportunities!*
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-susanacharya1.com.np-4F46E5?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.susanacharya1.com.np)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-susan--acharya1618-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/susan-acharya1618)
 [![GitHub](https://img.shields.io/badge/GitHub-susancodex-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/susancodex)
+
+<br/>
+
+*"The best way to predict the future is to create it."*
 
 </div>
 
 ---
 
+<!-- Footer -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" />
 </div>
