@@ -97,7 +97,7 @@ me.say_hi()
 
 | Project | Description | Tech | Repo |
 |---------|-------------|------|------|
-| **Finance Tracker** | Full-stack personal finance app with expense management and visualizations | `JS` `Python` `CSS` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/susancodex/Finance_Tracker) |
+| **Finance Tracker** | Full-stack personal finance app with expense management and visualizations | `JS` `Python` `CSS` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/susancodex/Finance_Tracker) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=render&logoColor=white)](https://finance-tracker-frontend-zeid.onrender.com/login) |
 | **Task Manager API** | RESTful API for task management with full CRUD, built with Django REST Framework | `JS` `Python` `DRF` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/susancodex/task-manager-api) |
 | **E-Commerce Platform** | Full-stack e-commerce with user auth, payment integration & admin dashboard | `Python` `Django` `MySQL` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/susancodex/django_ecommerce) |
 | **Student Management System** | CRUD system for student records with grade charts via Chart.js | `Python` `Django` `SQLite` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/susancodex/student_management_system) |
