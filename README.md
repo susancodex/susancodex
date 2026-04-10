@@ -40,24 +40,6 @@ Motivated **junior Python and web developer** with hands-on experience building 
 - Strong believer in clean, readable code and consistent learning
 - Open to **internship and collaboration** opportunities
 
-```python
-class SusanAcharya:
-    def __init__(self):
-        self.name       = "Susan Acharya"
-        self.location   = "Kathmandu, Nepal"
-        self.degree     = "BSc. CSIT @ Tribhuvan University"
-        self.languages  = ["Python", "JavaScript", "TypeScript"]
-        self.frameworks = ["Django", "DRF", "Bootstrap"]
-        self.databases  = ["MySQL", "PostgreSQL", "SQLite3"]
-        self.currently  = "Building full-stack web applications"
-        self.looking_for = "Internship & Collaboration"
-
-    def say_hi(self):
-        print("Thanks for visiting my profile! Let's build something great.")
-
-me = SusanAcharya()
-me.say_hi()
-```
 
 <br clear="right"/>
 
