@@ -30,7 +30,7 @@
 
 ## About Me
 
-<img align="right" src="https://susanacharya1.com.np/lovable-uploads/5058cdc6-c2f4-4cb1-b8cc-303bca9df609.png" alt="Susan Acharya" width="220" style="border-radius:12px; margin-left:20px;" />
+<img align="right" src="https://avatars.githubusercontent.com/u/180287919?v=4" alt="Susan Acharya" width="200" style="border-radius:12px; margin-left:20px;" />
 
 Motivated **junior Python and web developer** with hands-on experience building scalable, user-friendly web applications using Django and Python. Skilled in RESTful API design, modern web technologies, and responsive design.
 
