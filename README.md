@@ -1,8 +1,3 @@
-<!-- Header Banner -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Susan%20Acharya&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Junior%20Django%20%26%20Python%20Developer&descAlignY=55&descSize=18" width="100%" />
-</div>
-
 <!-- Typing Animation -->
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=6366F1&center=true&vCenter=true&multiline=false&width=650&lines=Hi+there!+I'm+Susan+Acharya+%F0%9F%91%8B;Junior+Django+%26+Python+Developer;BSc.+CSIT+Student+%40+TU;Building+Scalable+Web+Applications;Open+to+Internship+Opportunities!" alt="Typing SVG" />
