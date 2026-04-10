@@ -77,10 +77,10 @@ Motivated junior Python and web developer with hands-on experience building scal
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=susancodex&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=susancodex&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="170" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=susancodex&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=susancodex&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="170" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=susancodex&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=susancodex&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
 </div>
 
