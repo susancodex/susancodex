@@ -6,6 +6,7 @@
   **Junior Django & Python Developer | BSc. CSIT Student**
 
   [![Portfolio](https://img.shields.io/badge/Portfolio-susanacharya1.com.np-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.susanacharya1.com.np)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-susan--acharya1618-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/susan-acharya1618)
   [![GitHub](https://img.shields.io/badge/GitHub-susancodex-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/susancodex)
   [![Location](https://img.shields.io/badge/Location-Kathmandu,%20Nepal-red?style=for-the-badge&logo=google-maps&logoColor=white)](#)
 
@@ -107,6 +108,7 @@ Core coursework: Data Structures & Algorithms, Web Technologies, Database Manage
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-susanacharya1.com.np-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.susanacharya1.com.np)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-susan--acharya1618-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/susan-acharya1618)
 [![GitHub](https://img.shields.io/badge/GitHub-susancodex-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/susancodex)
 
 </div>
