@@ -32,7 +32,7 @@
 
 ## About Me
 
-Motivated **junior Python and web developer** with hands-on experience building scalable, user-friendly web applications using Django and Python. Skilled in RESTful API design, modern web technologies, and responsive design.
+Motivated **web developer** with hands-on experience building scalable, user-friendly web applications using Django and Python. Skilled in RESTful API design, modern web technologies, and responsive design.
 
 - Currently pursuing **BSc. CSIT** at Bhaktapur Multiple Campus, Tribhuvan University (IOST)
 - Building full-stack apps with **Django**, **DRF**, **JavaScript** & **TypeScript**
