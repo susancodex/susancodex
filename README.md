@@ -3,11 +3,11 @@
 </div>
 
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/180287919?v=4" alt="Susan Acharya" width="120" />
+  <img src="https://avatars.githubusercontent.com/u/180287919?v=4" alt="Susan Acharya" width="140" style="border-radius: 50%; margin-top: -20px;" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=6366F1&center=true&vCenter=true&width=650&lines=Building+scalable+web+applications;Django+%7C+DRF+%7C+JavaScript+%7C+TypeScript;Open+to+internship+%26+collaboration+opportunities" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=6366F1&center=true&vCenter=true&width=650&lines=Building+scalable+web+applications;Django+%7C+DRF+%7C+JavaScript+%7C+TypeScript;Open+to+internship+%26+collaboration+opportunities" alt="Typing SVG" width="100%" style="max-width: 650px;" />
 </div>
 
 <br/>
@@ -74,13 +74,13 @@ I am a motivated **aspiring web developer** with hands-on experience designing a
 
 | Project | Description | Stack | Links |
 |---|---|---|---|
-| **Finance Tracker** | Full-stack personal finance application with expense tracking, budget management, and data visualizations | `Python` `Django` `JavaScript` `CSS` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/Finance_Tracker) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=render&logoColor=white)](https://finance-tracker-frontend-zeid.onrender.com/login) |
-| **Hospital Management System** | Hospital management platform with patient records, appointment scheduling, and admin dashboard | `Python` `Django` `JavaScript` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/Hospital_Management_System) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=render&logoColor=white)](https://hospital-management-system-frontend-hsbj.onrender.com) |
-| **Smart Study Planner** | AI-assisted study planning tool to help students organize schedules and optimize learning efficiency | `Python` `JavaScript` `CSS` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/smart_study_planner) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=render&logoColor=white)](https://smart-study-planner-zvxj.onrender.com) |
-| **Task Manager API** | Production-ready RESTful API for task management with full CRUD operations, JWT authentication, and Swagger docs | `Python` `Django` `DRF` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/task-manager-api) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=render&logoColor=white)](https://task-manager-api-sg3y.onrender.com) |
+| **Finance Tracker** | Full-stack personal finance application with expense tracking, budget management, and data visualizations | `Python` `Django` `JS` `CSS` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/Finance_Tracker) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=render&logoColor=white)](https://finance-tracker-frontend-zeid.onrender.com/login) |
+| **Hospital Management System** | Hospital management platform with patient records, appointment scheduling, and admin dashboard | `Python` `Django` `JS` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/Hospital_Management_System) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=render&logoColor=white)](https://hospital-management-system-frontend-hsbj.onrender.com) |
+| **Smart Study Planner** | AI-assisted study planning tool to help students organize schedules and optimize learning efficiency | `Python` `JS` `CSS` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/smart_study_planner) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=render&logoColor=white)](https://smart-study-planner-zvxj.onrender.com) |
+| **Task Manager API** | Production-ready RESTful API for task management with full CRUD operations, JWT authentication, and Swagger docs | `Python` `DRF` `JWT` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/task-manager-api) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=render&logoColor=white)](https://task-manager-api-sg3y.onrender.com) |
 | **CRUD API** | Clean and well-documented RESTful CRUD API built with Django REST Framework generic views | `Python` `DRF` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/CRUD-API) |
 | **Expense CRUD API** | Django REST API for expense management using DRF generic views with structured data handling | `Python` `DRF` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/EXPENSE-CRUD-API) |
-| **Portfolio Website** | Personal portfolio built with TypeScript and modern web technologies | `TypeScript` `CSS` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/Susan-Acharya-Portfolio) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://www.susanacharya1.com.np) |
+| **Portfolio Website** | Personal portfolio built with TypeScript and modern web technologies | `TS` `CSS` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/Susan-Acharya-Portfolio) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://www.susanacharya1.com.np) |
 
 </div>
 
@@ -89,15 +89,14 @@ I am a motivated **aspiring web developer** with hands-on experience designing a
 ## GitHub Statistics
 
 <div align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=susancodex&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=susancodex&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="48%" />
+</div>
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=susancodex&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180" />
-&nbsp;
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=susancodex&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="180" />
+<br/>
 
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com/?user=susancodex&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=susancodex&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%" style="max-width: 800px;" />
 </div>
 
 ---
@@ -105,7 +104,7 @@ I am a motivated **aspiring web developer** with hands-on experience designing a
 ## Contribution Activity
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=susancodex&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=susancodex&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="100%" style="max-width: 800px;" />
 </div>
 
 ---
@@ -113,13 +112,9 @@ I am a motivated **aspiring web developer** with hands-on experience designing a
 ## Profile Summary
 
 <div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=susancodex&theme=tokyonight" height="160" />
-&nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=susancodex&theme=tokyonight" height="160" />
-&nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=susancodex&theme=tokyonight" height="160" />
-
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=susancodex&theme=tokyonight" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=susancodex&theme=tokyonight" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=susancodex&theme=tokyonight" width="32%" />
 </div>
 
 ---
@@ -132,8 +127,8 @@ I am a motivated **aspiring web developer** with hands-on experience designing a
 
 ### Education
 
-**BSc. Computer Science and Information Technology**
-Bhaktapur Multiple Campus, Tribhuvan University (IOST)
+**BSc. Computer Science and Information Technology**<br/>
+Bhaktapur Multiple Campus, Tribhuvan University (IOST)<br/>
 *Currently Pursuing*
 
 **Core Subjects:**
@@ -148,13 +143,13 @@ Bhaktapur Multiple Campus, Tribhuvan University (IOST)
 
 ### Certifications
 
-**Python For Beginners** — Learn All The Basics Of Python
+**Python For Beginners** — Learn All The Basics Of Python<br/>
 > Variables, data types, loops, functions, data structures
 
-**Python For Data Science** — Real-World Exercises
+**Python For Data Science** — Real-World Exercises<br/>
 > NumPy, statistics, data manipulation
 
-**Python Programming** — Python Bootcamp For Beginners
+**Python Programming** — Python Bootcamp For Beginners<br/>
 > Core Python concepts and practical problem-solving
 
 </td>
