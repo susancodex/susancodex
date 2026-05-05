@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/180287919?v=4" alt="Susan Acharya" width="130" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=200&section=header&text=Susan%20Acharya&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Aspiring%20Web%20Developer%20%7C%20Django%20%7C%20Python%20%7C%20REST%20APIs&descAlignY=60&descSize=16" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=160&section=header&text=Susan%20Acharya&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=55&desc=Aspiring%20Web%20Developer%20%7C%20Django%20%7C%20Python%20%7C%20REST%20APIs&descAlignY=75&descSize=15" width="100%" />
+  <img src="https://avatars.githubusercontent.com/u/180287919?v=4" alt="Susan Acharya" width="120" />
 </div>
 
 <div align="center">
