@@ -1,14 +1,14 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=200&section=header&text=Susan%20Acharya&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Aspiring%20Web%20Developer%20%7C%20Django%20%7C%20Python%20%7C%20REST%20APIs&descAlignY=60&descSize=16" width="100%" />
+  <!-- Profile Image at the Very Top in Circle -->
+  <img src="https://avatars.githubusercontent.com/u/180287919?v=4" alt="Susan Acharya" width="160" height="160" style="border-radius: 50%; object-fit: cover; border: 4px solid #6366F1; margin-bottom: 15px;" />
 </div>
 
 <div align="center">
-  <!-- PERFECT CIRCLE AVATAR with border-radius: 50% and matching theme border -->
-  <img src="https://avatars.githubusercontent.com/u/180287919?v=4" alt="Susan Acharya" width="150" height="150" style="border-radius: 50%; object-fit: cover; margin-top: -20px; border: 4px solid #6366F1;" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=150&section=header&text=Susan%20Acharya&fontSize=50&fontColor=ffffff&animation=fadeIn" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=6366F1&center=true&vCenter=true&width=650&lines=Building+scalable+web+applications;Django+%7C+DRF+%7C+JavaScript+%7C+TypeScript;Open+to+internship+%26+collaboration+opportunities" alt="Typing SVG" width="100%" style="max-width: 650px;" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=6366F1&center=true&vCenter=true&width=650&lines=Building+scalable+web+applications;Django+%7C+DRF+%7C+JavaScript+%7C+TypeScript;Open+to+internship+%26+collaboration+opportunities" alt="Typing SVG" width="100%" style="max-width: 650px; margin-top: 10px;" />
 </div>
 
 <br/>
