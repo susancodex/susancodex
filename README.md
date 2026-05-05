@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=200&section=header&text=Susan%20Acharya&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Web%20Developer%20%7C%20Django%20%7C%20Python%20%7C%20REST%20APIs&descAlignY=55&descSize=16" width="100%" />
+  <img src="https://avatars.githubusercontent.com/u/180287919?v=4" alt="Susan Acharya" width="130" />
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=160&section=header&text=Susan%20Acharya&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=55&desc=Aspiring%20Web%20Developer%20%7C%20Django%20%7C%20Python%20%7C%20REST%20APIs&descAlignY=75&descSize=15" width="100%" />
 </div>
 
 <div align="center">
@@ -27,10 +31,10 @@
 
 ## About Me
 
-I am a motivated **full-stack web developer** with hands-on experience designing and building scalable, user-friendly web applications. My primary stack is **Django** and **Python** on the backend, complemented by **JavaScript** and **TypeScript** on the frontend. I take pride in writing clean, well-structured code and consistently apply RESTful API design principles across my projects.
+I am a motivated **aspiring web developer** with hands-on experience designing and building scalable, user-friendly web applications. My primary stack is **Django** and **Python** on the backend, complemented by **JavaScript** and **TypeScript** on the frontend. I take pride in writing clean, well-structured code and consistently apply RESTful API design principles across my projects.
 
 - **Education:** BSc. Computer Science and Information Technology — Bhaktapur Multiple Campus, Tribhuvan University (IOST) *(Ongoing)*
-- **Core Expertise:** Django REST Framework · RESTful API Design · Full-Stack Development · Responsive UI
+- **Core Expertise:** Django REST Framework · RESTful API Design · Web Development · Responsive UI
 - **Currently:** Deepening knowledge in TypeScript, system design, and production deployment workflows
 - **Open to:** Internship opportunities, freelance projects, and open-source collaboration
 
@@ -71,10 +75,10 @@ I am a motivated **full-stack web developer** with hands-on experience designing
 | Project | Description | Stack | Links |
 |---|---|---|---|
 | **Finance Tracker** | Full-stack personal finance application with expense tracking, budget management, and data visualizations | `Python` `Django` `JavaScript` `CSS` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/Finance_Tracker) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=render&logoColor=white)](https://finance-tracker-frontend-zeid.onrender.com/login) |
-| **Hospital Management System** | Full-stack hospital management platform with patient records, appointment scheduling, and admin dashboard | `Python` `Django` `JavaScript` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/Hospital_Management_System) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=render&logoColor=white)](https://hospital-management-system-frontend-hsbj.onrender.com) |
+| **Hospital Management System** | Hospital management platform with patient records, appointment scheduling, and admin dashboard | `Python` `Django` `JavaScript` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/Hospital_Management_System) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=render&logoColor=white)](https://hospital-management-system-frontend-hsbj.onrender.com) |
 | **Smart Study Planner** | AI-assisted study planning tool to help students organize schedules and optimize learning efficiency | `Python` `JavaScript` `CSS` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/smart_study_planner) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=render&logoColor=white)](https://smart-study-planner-zvxj.onrender.com) |
 | **Task Manager API** | Production-ready RESTful API for task management with full CRUD operations, JWT authentication, and Swagger docs | `Python` `Django` `DRF` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/task-manager-api) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=render&logoColor=white)](https://task-manager-api-sg3y.onrender.com) |
-| **To-Do List App** | Full-stack task management app with user authentication, registration, login, and personal task tracking | `Python` `Django` `HTML` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/todo-list) |
+| **To-Do List App** | Task management app with user authentication, registration, login, and personal task tracking | `Python` `Django` `HTML` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/todo-list) |
 | **CRUD API** | Clean and well-documented RESTful CRUD API built with Django REST Framework generic views | `Python` `DRF` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/CRUD-API) |
 | **Expense CRUD API** | Django REST API for expense management using DRF generic views with structured data handling | `Python` `DRF` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/EXPENSE-CRUD-API) |
 | **Portfolio Website** | Personal portfolio built with TypeScript and modern web technologies | `TypeScript` `CSS` | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/susancodex/Susan-Acharya-Portfolio) [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://www.susanacharya1.com.np) |
