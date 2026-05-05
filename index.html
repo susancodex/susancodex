@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Susan Acharya – GitHub Profile</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    .hero {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    .hero img.avatar {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #6366f1;
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      color: #e6edf3;
+      margin-bottom: 8px;
+    }
+    .hero .subtitle {
+      color: #6366f1;
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .badges a {
+      text-decoration: none;
+    }
+    .badges img {
+      height: 28px;
+    }
+    section {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 28px;
+    }
+    section h2 {
+      color: #e6edf3;
+      font-size: 1.3rem;
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #30363d;
+    }
+    .about p {
+      color: #8b949e;
+      margin-bottom: 10px;
+    }
+    .about ul {
+      list-style: none;
+      padding: 0;
+    }
+    .about ul li {
+      padding: 4px 0;
+      color: #8b949e;
+    }
+    .about ul li::before {
+      content: "▸ ";
+      color: #6366f1;
+    }
+    .tech-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .tech-card {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 14px;
+    }
+    .tech-card h4 {
+      color: #6366f1;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+    .tech-card p {
+      color: #8b949e;
+      font-size: 0.9rem;
+    }
+    .projects-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+    .projects-table th {
+      text-align: left;
+      padding: 10px 12px;
+      background: #0d1117;
+      color: #6366f1;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid #30363d;
+    }
+    .projects-table td {
+      padding: 12px;
+      border-bottom: 1px solid #21262d;
+      color: #8b949e;
+      vertical-align: top;
+    }
+    .projects-table tr:last-child td {
+      border-bottom: none;
+    }
+    .projects-table .project-name {
+      color: #e6edf3;
+      font-weight: 600;
+    }
+    .projects-table .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .tag {
+      background: #21262d;
+      color: #6366f1;
+      border-radius: 4px;
+      padding: 2px 7px;
+      font-size: 0.78rem;
+      font-family: monospace;
+    }
+    .project-links {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .project-links a {
+      color: #6366f1;
+      text-decoration: none;
+      font-size: 0.82rem;
+      border: 1px solid #30363d;
+      border-radius: 4px;
+      padding: 2px 8px;
+      transition: border-color 0.2s;
+    }
+    .project-links a:hover {
+      border-color: #6366f1;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+    .stats-grid img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .edu-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    @media (max-width: 600px) {
+      .edu-grid { grid-template-columns: 1fr; }
+    }
+    .edu-grid h3 {
+      color: #e6edf3;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+    .edu-grid p, .edu-grid li {
+      color: #8b949e;
+      font-size: 0.9rem;
+    }
+    .edu-grid ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 8px;
+    }
+    .edu-grid ul li::before {
+      content: "▸ ";
+      color: #6366f1;
+    }
+    .connect-links {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .connect-links a {
+      text-decoration: none;
+    }
+    .connect-links img {
+      height: 32px;
+    }
+    .quote-box {
+      text-align: center;
+      font-style: italic;
+      color: #6366f1;
+      font-size: 1.05rem;
+      padding: 12px 0 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Hero -->
+    <div class="hero">
+      <img class="avatar" src="https://avatars.githubusercontent.com/u/180287919?v=4" alt="Susan Acharya" />
+      <h1>Susan Acharya</h1>
+      <div class="subtitle">Aspiring Web Developer · Building Scalable Web Applications</div>
+      <div class="badges">
+        <a href="https://www.susanacharya1.com.np" target="_blank">
+          <img src="https://img.shields.io/badge/Portfolio-susanacharya1.com.np-4F46E5?style=for-the-badge&logo=google-chrome&logoColor=white" />
+        </a>
+        <a href="https://www.linkedin.com/in/susan-acharya1618" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn-susan--acharya1618-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+        </a>
+        <a href="https://github.com/susancodex" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-susancodex-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+        <a href="#">
+          <img src="https://img.shields.io/badge/Kathmandu-Nepal-DC2626?style=for-the-badge&logo=google-maps&logoColor=white" />
+        </a>
+      </div>
+    </div>
+
+    <!-- About -->
+    <section class="about">
+      <h2>About Me</h2>
+      <p>Motivated web developer with hands-on experience building scalable, user-friendly web applications using Django and Python. Skilled in RESTful API design, modern web technologies, and responsive design.</p>
+      <ul>
+        <li>Currently pursuing <strong>BSc. CSIT</strong> at Bhaktapur Multiple Campus, Tribhuvan University (IOST)</li>
+        <li>Building full-stack apps with <strong>Django</strong>, <strong>DRF</strong>, <strong>JavaScript</strong> &amp; <strong>TypeScript</strong></li>
+        <li>Certified in <strong>Python</strong> — from beginner to data science applications</li>
+        <li>Strong believer in clean, readable code and consistent learning</li>
+        <li>Open to <strong>internship and collaboration</strong> opportunities</li>
+      </ul>
+    </section>
+
+    <!-- Tech Stack -->
+    <section>
+      <h2>Tech Stack</h2>
+      <div class="tech-grid">
+        <div class="tech-card">
+          <h4>Languages</h4>
+          <p>Python, JavaScript, TypeScript</p>
+        </div>
+        <div class="tech-card">
+          <h4>Backend</h4>
+          <p>Django, Django REST Framework</p>
+        </div>
+        <div class="tech-card">
+          <h4>Frontend</h4>
+          <p>HTML5, CSS3, Bootstrap</p>
+        </div>
+        <div class="tech-card">
+          <h4>Databases</h4>
+          <p>MySQL, PostgreSQL, SQLite</p>
+        </div>
+        <div class="tech-card">
+          <h4>Tools</h4>
+          <p>Git, GitHub, VS Code, PyCharm</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section>
+      <h2>Featured Projects</h2>
+      <table class="projects-table">
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th>Tech</th>
+            <th>Links</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="project-name">Finance Tracker</td>
+            <td>Full-stack personal finance app with expense management and visualizations</td>
+            <td><div class="tags"><span class="tag">JS</span><span class="tag">Python</span><span class="tag">CSS</span></div></td>
+            <td><div class="project-links"><a href="https://github.com/susancodex/Finance_Tracker" target="_blank">Code</a><a href="https://finance-tracker-frontend-zeid.onrender.com/login" target="_blank">Live</a></div></td>
+          </tr>
+          <tr>
+            <td class="project-name">Task Manager API</td>
+            <td>RESTful API for task management with full CRUD, built with Django REST Framework</td>
+            <td><div class="tags"><span class="tag">JS</span><span class="tag">Python</span><span class="tag">DRF</span></div></td>
+            <td><div class="project-links"><a href="https://github.com/susancodex/task-manager-api" target="_blank">Code</a><a href="https://task-manager-api-x87n.onrender.com" target="_blank">Live</a></div></td>
+          </tr>
+          <tr>
+            <td class="project-name">E-Commerce Platform</td>
+            <td>Full-stack e-commerce with user auth, payment integration &amp; admin dashboard</td>
+            <td><div class="tags"><span class="tag">Python</span><span class="tag">Django</span><span class="tag">MySQL</span></div></td>
+            <td><div class="project-links"><a href="https://github.com/susancodex/django_ecommerce" target="_blank">Code</a></div></td>
+          </tr>
+          <tr>
+            <td class="project-name">Student Management System</td>
+            <td>CRUD system for student records with grade charts via Chart.js</td>
+            <td><div class="tags"><span class="tag">Python</span><span class="tag">Django</span><span class="tag">SQLite</span></div></td>
+            <td><div class="project-links"><a href="https://github.com/susancodex/student_management_system" target="_blank">Code</a></div></td>
+          </tr>
+          <tr>
+            <td class="project-name">To-Do List App</td>
+            <td>User-authenticated to-do list with registration, login, and task management</td>
+            <td><div class="tags"><span class="tag">Python</span><span class="tag">Django</span><span class="tag">HTML</span></div></td>
+            <td><div class="project-links"><a href="https://github.com/susancodex/todo-list" target="_blank">Code</a></div></td>
+          </tr>
+          <tr>
+            <td class="project-name">CRUD API</td>
+            <td>Clean RESTful CRUD API built with Django REST Framework generic views</td>
+            <td><div class="tags"><span class="tag">Python</span><span class="tag">DRF</span></div></td>
+            <td><div class="project-links"><a href="https://github.com/susancodex/CRUD-API" target="_blank">Code</a></div></td>
+          </tr>
+          <tr>
+            <td class="project-name">Expense CRUD API</td>
+            <td>Django REST API for expense management using DRF generic views</td>
+            <td><div class="tags"><span class="tag">Python</span><span class="tag">DRF</span></div></td>
+            <td><div class="project-links"><a href="https://github.com/susancodex/EXPENSE-CRUD-API" target="_blank">Code</a></div></td>
+          </tr>
+          <tr>
+            <td class="project-name">Portfolio Website</td>
+            <td>Personal portfolio site built with TypeScript and modern web tech</td>
+            <td><div class="tags"><span class="tag">TypeScript</span><span class="tag">CSS</span></div></td>
+            <td><div class="project-links"><a href="https://github.com/susancodex/Susan-Acharya-Portfolio" target="_blank">Code</a><a href="https://www.susanacharya1.com.np" target="_blank">Live</a></div></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- GitHub Stats -->
+    <section>
+      <h2>GitHub Stats</h2>
+      <div class="stats-grid">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=susancodex&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=susancodex&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+      </div>
+      <br/>
+      <img src="https://streak-stats.demolab.com/?user=susancodex&theme=tokyonight&hide_border=true" alt="GitHub Streak" style="width:100%;border-radius:8px;" />
+    </section>
+
+    <!-- Education & Certs -->
+    <section>
+      <h2>Education &amp; Certifications</h2>
+      <div class="edu-grid">
+        <div>
+          <h3>Education</h3>
+          <p><strong>BSc. Computer Science and Information Technology</strong><br/>
+          Bhaktapur Multiple Campus, Tribhuvan University (IOST)<br/>
+          <em>Currently Pursuing</em></p>
+          <ul>
+            <li>Data Structures &amp; Algorithms</li>
+            <li>Web Technologies &amp; Database Management</li>
+            <li>Operating Systems &amp; Software Engineering</li>
+            <li>Object-Oriented Programming (Java, .NET)</li>
+            <li>Computer Networks &amp; Architecture</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Certifications</h3>
+          <ul>
+            <li><strong>Python For Beginners</strong> — Variables, data types, loops, functions, data structures</li>
+            <li><strong>Python For Data Science</strong> — NumPy, statistics, data manipulation</li>
+            <li><strong>Python Programming</strong> — Python Bootcamp For Beginners</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Connect -->
+    <section>
+      <h2>Let's Connect</h2>
+      <p style="text-align:center;color:#8b949e;margin-bottom:16px;">I'm always open to interesting conversations, collaborations, and opportunities!</p>
+      <div class="connect-links">
+        <a href="https://www.susanacharya1.com.np" target="_blank">
+          <img src="https://img.shields.io/badge/Portfolio-susanacharya1.com.np-4F46E5?style=for-the-badge&logo=google-chrome&logoColor=white" />
+        </a>
+        <a href="https://www.linkedin.com/in/susan-acharya1618" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn-susan--acharya1618-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+        </a>
+        <a href="https://github.com/susancodex" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-susancodex-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+      </div>
+      <div class="quote-box">"The best way to predict the future is to create it."</div>
+    </section>
+
+  </div>
+</body>
+</html>
