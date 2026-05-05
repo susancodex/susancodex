@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Susan Acharya – GitHub Profile</title>
+  <title>Susan Acharya – Profile</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -15,133 +15,132 @@
     .container {
       max-width: 900px;
       margin: 0 auto;
-      padding: 40px 20px;
+      padding: 32px 16px;
     }
+
+    /* ── Hero ── */
     .hero {
       text-align: center;
-      margin-bottom: 48px;
+      margin-bottom: 40px;
     }
     .hero img.avatar {
-      width: 160px;
-      height: 160px;
+      width: 140px;
+      height: 140px;
       border-radius: 50%;
       border: 4px solid #6366f1;
-      margin-bottom: 24px;
+      margin-bottom: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     .hero h1 {
-      font-size: 2.2rem;
+      font-size: clamp(1.6rem, 5vw, 2.2rem);
       color: #e6edf3;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
     .hero .subtitle {
       color: #6366f1;
-      font-size: 1.1rem;
+      font-size: clamp(0.9rem, 3vw, 1.05rem);
       margin-bottom: 20px;
     }
     .badges {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 8px;
       justify-content: center;
-      margin-bottom: 20px;
     }
-    .badges a {
-      text-decoration: none;
-    }
-    .badges img {
-      height: 28px;
-    }
+    .badges a { text-decoration: none; }
+    .badges img { height: 26px; max-width: 100%; }
+
+    /* ── Sections ── */
     section {
       background: #161b22;
       border: 1px solid #30363d;
       border-radius: 12px;
-      padding: 28px;
-      margin-bottom: 28px;
+      padding: 24px;
+      margin-bottom: 24px;
     }
     section h2 {
       color: #e6edf3;
-      font-size: 1.3rem;
+      font-size: 1.15rem;
       margin-bottom: 16px;
       padding-bottom: 10px;
       border-bottom: 1px solid #30363d;
     }
+
+    /* ── About ── */
     .about p {
       color: #8b949e;
-      margin-bottom: 10px;
+      margin-bottom: 12px;
+      font-size: 0.95rem;
     }
-    .about ul {
-      list-style: none;
-      padding: 0;
-    }
+    .about ul { list-style: none; padding: 0; }
     .about ul li {
       padding: 4px 0;
       color: #8b949e;
+      font-size: 0.95rem;
     }
-    .about ul li::before {
-      content: "▸ ";
-      color: #6366f1;
-    }
+    .about ul li::before { content: "▸ "; color: #6366f1; }
+
+    /* ── Tech grid ── */
     .tech-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
     }
     .tech-card {
       background: #0d1117;
       border: 1px solid #30363d;
       border-radius: 8px;
-      padding: 14px;
+      padding: 12px;
     }
     .tech-card h4 {
       color: #6366f1;
-      font-size: 0.85rem;
+      font-size: 0.78rem;
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
-    .tech-card p {
-      color: #8b949e;
-      font-size: 0.9rem;
+    .tech-card p { color: #8b949e; font-size: 0.88rem; }
+
+    /* ── Project cards ── */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
     }
-    .projects-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.9rem;
-    }
-    .projects-table th {
-      text-align: left;
-      padding: 10px 12px;
+    .project-card {
       background: #0d1117;
-      color: #6366f1;
-      font-size: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      border-bottom: 1px solid #30363d;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      transition: border-color 0.2s;
     }
-    .projects-table td {
-      padding: 12px;
-      border-bottom: 1px solid #21262d;
-      color: #8b949e;
-      vertical-align: top;
-    }
-    .projects-table tr:last-child td {
-      border-bottom: none;
-    }
-    .projects-table .project-name {
+    .project-card:hover { border-color: #6366f1; }
+    .project-card-name {
       color: #e6edf3;
-      font-weight: 600;
+      font-weight: 700;
+      font-size: 1rem;
     }
-    .projects-table .tags {
+    .project-card-desc {
+      color: #8b949e;
+      font-size: 0.88rem;
+      flex: 1;
+    }
+    .tags {
       display: flex;
       flex-wrap: wrap;
-      gap: 4px;
+      gap: 5px;
     }
     .tag {
       background: #21262d;
       color: #6366f1;
       border-radius: 4px;
-      padding: 2px 7px;
-      font-size: 0.78rem;
+      padding: 2px 8px;
+      font-size: 0.75rem;
       font-family: monospace;
     }
     .project-links {
@@ -154,66 +153,66 @@
       text-decoration: none;
       font-size: 0.82rem;
       border: 1px solid #30363d;
-      border-radius: 4px;
-      padding: 2px 8px;
-      transition: border-color 0.2s;
+      border-radius: 5px;
+      padding: 3px 10px;
+      transition: border-color 0.2s, background 0.2s;
     }
     .project-links a:hover {
       border-color: #6366f1;
+      background: #1a1f2e;
     }
+
+    /* ── Stats ── */
     .stats-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 16px;
+      margin-bottom: 16px;
     }
-    .stats-grid img {
+    .stats-grid img, .streak-img {
       width: 100%;
       border-radius: 8px;
+      display: block;
     }
+
+    /* ── Education ── */
     .edu-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 24px;
     }
-    @media (max-width: 600px) {
-      .edu-grid { grid-template-columns: 1fr; }
-    }
-    .edu-grid h3 {
-      color: #e6edf3;
-      margin-bottom: 10px;
-      font-size: 1rem;
-    }
-    .edu-grid p, .edu-grid li {
-      color: #8b949e;
-      font-size: 0.9rem;
-    }
-    .edu-grid ul {
-      list-style: none;
-      padding: 0;
-      margin-top: 8px;
-    }
-    .edu-grid ul li::before {
-      content: "▸ ";
-      color: #6366f1;
-    }
+    .edu-grid h3 { color: #e6edf3; margin-bottom: 10px; font-size: 1rem; }
+    .edu-grid p, .edu-grid li { color: #8b949e; font-size: 0.9rem; }
+    .edu-grid ul { list-style: none; padding: 0; margin-top: 8px; }
+    .edu-grid ul li::before { content: "▸ "; color: #6366f1; }
+
+    /* ── Connect ── */
     .connect-links {
       display: flex;
-      gap: 12px;
+      gap: 10px;
       flex-wrap: wrap;
       justify-content: center;
     }
-    .connect-links a {
-      text-decoration: none;
-    }
-    .connect-links img {
-      height: 32px;
-    }
+    .connect-links a { text-decoration: none; }
+    .connect-links img { height: 30px; max-width: 100%; }
     .quote-box {
       text-align: center;
       font-style: italic;
       color: #6366f1;
-      font-size: 1.05rem;
-      padding: 12px 0 0;
+      font-size: 1rem;
+      padding: 16px 0 0;
+    }
+
+    /* ── Mobile ── */
+    @media (max-width: 600px) {
+      .container { padding: 20px 12px; }
+      section { padding: 18px 14px; }
+      .hero img.avatar { width: 110px; height: 110px; }
+      .edu-grid { grid-template-columns: 1fr; gap: 20px; }
+      .projects-grid { grid-template-columns: 1fr; }
+      .stats-grid { grid-template-columns: 1fr; }
+      .badges img { height: 22px; }
+      .connect-links img { height: 26px; }
     }
   </style>
 </head>
@@ -224,13 +223,13 @@
     <div class="hero">
       <img class="avatar" src="https://avatars.githubusercontent.com/u/180287919?v=4" alt="Susan Acharya" />
       <h1>Susan Acharya</h1>
-      <div class="subtitle">Aspiring Web Developer · Building Scalable Web Applications</div>
+      <div class="subtitle">Aspiring Web Developer · Django · Python · REST APIs</div>
       <div class="badges">
         <a href="https://www.susanacharya1.com.np" target="_blank">
           <img src="https://img.shields.io/badge/Portfolio-susanacharya1.com.np-4F46E5?style=for-the-badge&logo=google-chrome&logoColor=white" />
         </a>
         <a href="https://www.linkedin.com/in/susan-acharya1618" target="_blank">
-          <img src="https://img.shields.io/badge/LinkedIn-susan--acharya1618-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+          <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
         </a>
         <a href="https://github.com/susancodex" target="_blank">
           <img src="https://img.shields.io/badge/GitHub-susancodex-181717?style=for-the-badge&logo=github&logoColor=white" />
@@ -244,10 +243,10 @@
     <!-- About -->
     <section class="about">
       <h2>About Me</h2>
-      <p>Motivated web developer with hands-on experience building scalable, user-friendly web applications using Django and Python. Skilled in RESTful API design, modern web technologies, and responsive design.</p>
+      <p>Motivated aspiring web developer with hands-on experience building scalable, user-friendly web applications using Django and Python. Skilled in RESTful API design, modern web technologies, and responsive design.</p>
       <ul>
         <li>Currently pursuing <strong>BSc. CSIT</strong> at Bhaktapur Multiple Campus, Tribhuvan University (IOST)</li>
-        <li>Building full-stack apps with <strong>Django</strong>, <strong>DRF</strong>, <strong>JavaScript</strong> &amp; <strong>TypeScript</strong></li>
+        <li>Building web apps with <strong>Django</strong>, <strong>DRF</strong>, <strong>JavaScript</strong> &amp; <strong>TypeScript</strong></li>
         <li>Certified in <strong>Python</strong> — from beginner to data science applications</li>
         <li>Strong believer in clean, readable code and consistent learning</li>
         <li>Open to <strong>internship and collaboration</strong> opportunities</li>
@@ -284,60 +283,91 @@
     <!-- Featured Projects -->
     <section>
       <h2>Featured Projects</h2>
-      <table class="projects-table">
-        <thead>
-          <tr>
-            <th>Project</th>
-            <th>Description</th>
-            <th>Tech</th>
-            <th>Links</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="project-name">Finance Tracker</td>
-            <td>Full-stack personal finance app with expense management and visualizations</td>
-            <td><div class="tags"><span class="tag">JS</span><span class="tag">Python</span><span class="tag">CSS</span></div></td>
-            <td><div class="project-links"><a href="https://github.com/susancodex/Finance_Tracker" target="_blank">Code</a><a href="https://finance-tracker-frontend-zeid.onrender.com/login" target="_blank">Live</a></div></td>
-          </tr>
-          <tr>
-            <td class="project-name">Task Manager API</td>
-            <td>RESTful API for task management with full CRUD, built with Django REST Framework</td>
-            <td><div class="tags"><span class="tag">JS</span><span class="tag">Python</span><span class="tag">DRF</span></div></td>
-            <td><div class="project-links"><a href="https://github.com/susancodex/task-manager-api" target="_blank">Code</a><a href="https://task-manager-api-sg3y.onrender.com" target="_blank">Live</a></div></td>
-          </tr>
-          <tr>
-            <td class="project-name">Hospital Management System</td>
-            <td>Full-stack hospital management app with patient records, appointments, and admin dashboard</td>
-            <td><div class="tags"><span class="tag">Python</span><span class="tag">Django</span><span class="tag">JS</span></div></td>
-            <td><div class="project-links"><a href="https://github.com/susancodex/Hospital_Management_System" target="_blank">Code</a><a href="https://hospital-management-system-frontend-hsbj.onrender.com" target="_blank">Live</a></div></td>
-          </tr>
-          <tr>
-            <td class="project-name">Smart Study Planner</td>
-            <td>AI-powered smart study planner to organize and optimize learning schedules</td>
-            <td><div class="tags"><span class="tag">Python</span><span class="tag">JS</span><span class="tag">CSS</span></div></td>
-            <td><div class="project-links"><a href="https://github.com/susancodex/smart_study_planner" target="_blank">Code</a><a href="https://smart-study-planner-zvxj.onrender.com" target="_blank">Live</a></div></td>
-          </tr>
-          <tr>
-            <td class="project-name">CRUD API</td>
-            <td>Clean RESTful CRUD API built with Django REST Framework generic views</td>
-            <td><div class="tags"><span class="tag">Python</span><span class="tag">DRF</span></div></td>
-            <td><div class="project-links"><a href="https://github.com/susancodex/CRUD-API" target="_blank">Code</a></div></td>
-          </tr>
-          <tr>
-            <td class="project-name">Expense CRUD API</td>
-            <td>Django REST API for expense management using DRF generic views</td>
-            <td><div class="tags"><span class="tag">Python</span><span class="tag">DRF</span></div></td>
-            <td><div class="project-links"><a href="https://github.com/susancodex/EXPENSE-CRUD-API" target="_blank">Code</a></div></td>
-          </tr>
-          <tr>
-            <td class="project-name">Portfolio Website</td>
-            <td>Personal portfolio site built with TypeScript and modern web tech</td>
-            <td><div class="tags"><span class="tag">TypeScript</span><span class="tag">CSS</span></div></td>
-            <td><div class="project-links"><a href="https://github.com/susancodex/Susan-Acharya-Portfolio" target="_blank">Code</a><a href="https://www.susanacharya1.com.np" target="_blank">Live</a></div></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-card-name">Finance Tracker</div>
+          <div class="project-card-desc">Full-stack personal finance app with expense management, budget tracking, and data visualizations.</div>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">Django</span><span class="tag">JS</span><span class="tag">CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/susancodex/Finance_Tracker" target="_blank">Code</a>
+            <a href="https://finance-tracker-frontend-zeid.onrender.com/login" target="_blank">Live</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-name">Hospital Management System</div>
+          <div class="project-card-desc">Hospital management platform with patient records, appointment scheduling, and admin dashboard.</div>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">Django</span><span class="tag">JS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/susancodex/Hospital_Management_System" target="_blank">Code</a>
+            <a href="https://hospital-management-system-frontend-hsbj.onrender.com" target="_blank">Live</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-name">Smart Study Planner</div>
+          <div class="project-card-desc">AI-assisted study planning tool to help students organize schedules and optimize learning efficiency.</div>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">JS</span><span class="tag">CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/susancodex/smart_study_planner" target="_blank">Code</a>
+            <a href="https://smart-study-planner-zvxj.onrender.com" target="_blank">Live</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-name">Task Manager API</div>
+          <div class="project-card-desc">Production-ready RESTful API for task management with full CRUD, JWT auth, and Swagger docs.</div>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">DRF</span><span class="tag">JWT</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/susancodex/task-manager-api" target="_blank">Code</a>
+            <a href="https://task-manager-api-sg3y.onrender.com" target="_blank">Live</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-name">CRUD API</div>
+          <div class="project-card-desc">Clean and well-documented RESTful CRUD API built with Django REST Framework generic views.</div>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">DRF</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/susancodex/CRUD-API" target="_blank">Code</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-name">Expense CRUD API</div>
+          <div class="project-card-desc">Django REST API for expense management using DRF generic views with structured data handling.</div>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">DRF</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/susancodex/EXPENSE-CRUD-API" target="_blank">Code</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-name">Portfolio Website</div>
+          <div class="project-card-desc">Personal portfolio site built with TypeScript and modern web technologies.</div>
+          <div class="tags">
+            <span class="tag">TypeScript</span><span class="tag">CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/susancodex/Susan-Acharya-Portfolio" target="_blank">Code</a>
+            <a href="https://www.susanacharya1.com.np" target="_blank">Live</a>
+          </div>
+        </div>
+
+      </div>
     </section>
 
     <!-- GitHub Stats -->
@@ -347,8 +377,7 @@
         <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=susancodex&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
         <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=susancodex&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
       </div>
-      <br/>
-      <img src="https://streak-stats.demolab.com/?user=susancodex&theme=tokyonight&hide_border=true" alt="GitHub Streak" style="width:100%;border-radius:8px;" />
+      <img class="streak-img" src="https://streak-stats.demolab.com/?user=susancodex&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
     </section>
 
     <!-- Education & Certs -->
@@ -371,7 +400,7 @@
         <div>
           <h3>Certifications</h3>
           <ul>
-            <li><strong>Python For Beginners</strong> — Variables, data types, loops, functions, data structures</li>
+            <li><strong>Python For Beginners</strong> — Variables, data types, loops, functions</li>
             <li><strong>Python For Data Science</strong> — NumPy, statistics, data manipulation</li>
             <li><strong>Python Programming</strong> — Python Bootcamp For Beginners</li>
           </ul>
@@ -382,13 +411,13 @@
     <!-- Connect -->
     <section>
       <h2>Let's Connect</h2>
-      <p style="text-align:center;color:#8b949e;margin-bottom:16px;">I'm always open to interesting conversations, collaborations, and opportunities!</p>
+      <p style="text-align:center;color:#8b949e;margin-bottom:16px;font-size:0.95rem;">I'm always open to conversations, collaborations, and opportunities!</p>
       <div class="connect-links">
         <a href="https://www.susanacharya1.com.np" target="_blank">
           <img src="https://img.shields.io/badge/Portfolio-susanacharya1.com.np-4F46E5?style=for-the-badge&logo=google-chrome&logoColor=white" />
         </a>
         <a href="https://www.linkedin.com/in/susan-acharya1618" target="_blank">
-          <img src="https://img.shields.io/badge/LinkedIn-susan--acharya1618-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+          <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
         </a>
         <a href="https://github.com/susancodex" target="_blank">
           <img src="https://img.shields.io/badge/GitHub-susancodex-181717?style=for-the-badge&logo=github&logoColor=white" />
