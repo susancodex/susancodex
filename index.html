@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Susan Acharya – Profile</title>
   
-  <!-- Added a clean, professional Google Font -->
+  <!-- Clean, professional Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
   <style>
@@ -18,7 +18,7 @@
     
     body {
       font-family: 'Inter', -apple-system, sans-serif;
-      background: #0f172a; /* Sleek, professional dark slate background */
+      background: #0f172a; 
       color: #cbd5e1;
       line-height: 1.6;
     }
@@ -35,14 +35,13 @@
       margin-bottom: 48px;
     }
     
+    /* PERFECT CIRCLE AVATAR */
     .hero img.avatar {
       width: 150px;
       height: 150px;
-      border-radius: 50%;
-      border: 4px solid #6366f1;
-      /* FIXED: object-fit ensures the image never stretches out of proportion */
-      object-fit: cover; 
-      /* Added a subtle shadow for depth */
+      border-radius: 50%; /* Forces a circle */
+      object-fit: cover;  /* Prevents distortion */
+      border: 4px solid #6366f1; /* Professional accent border */
       box-shadow: 0 8px 16px rgba(99, 102, 241, 0.2); 
       margin: 0 auto 20px auto;
       display: block;
@@ -153,7 +152,6 @@
       transition: all 0.3s ease;
     }
     
-    /* Smooth hover effect to make the UI feel interactive */
     .project-card:hover { 
       border-color: #6366f1; 
       transform: translateY(-4px);
@@ -169,7 +167,7 @@
     .project-card-desc {
       color: #94a3b8;
       font-size: 0.9rem;
-      flex: 1; /* Pushes the tags and links to the bottom */
+      flex: 1; 
     }
     
     .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
@@ -223,7 +221,7 @@
       align-items: start;
     }
     
-    /* FIXED: Prevent stats images from stretching horizontally */
+    /* MOBILE RESPONSIVE IMAGES */
     .stats-grid img, .streak-img {
       max-width: 100%;
       height: auto; 
@@ -277,13 +275,13 @@
     @media (max-width: 768px) {
       .container { padding: 24px 16px; }
       section { padding: 24px 16px; }
+      /* Shrink avatar slightly on smaller screens while keeping the circle */
       .hero img.avatar { width: 120px; height: 120px; }
       .edu-grid { grid-template-columns: 1fr; gap: 24px; }
     }
   </style>
 </head>
 <body>
-  <!-- All HTML Content Inside the Body remains identical to preserve your data structure -->
   <div class="container">
 
     <!-- Hero -->
