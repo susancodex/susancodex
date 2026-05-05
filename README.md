@@ -3,7 +3,8 @@
 </div>
 
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/180287919?v=4" alt="Susan Acharya" width="140" style="border-radius: 50%; margin-top: -20px;" />
+  <!-- PERFECT CIRCLE AVATAR with border-radius: 50% and matching theme border -->
+  <img src="https://avatars.githubusercontent.com/u/180287919?v=4" alt="Susan Acharya" width="150" height="150" style="border-radius: 50%; object-fit: cover; margin-top: -20px; border: 4px solid #6366F1;" />
 </div>
 
 <div align="center">
@@ -89,6 +90,7 @@ I am a motivated **aspiring web developer** with hands-on experience designing a
 ## GitHub Statistics
 
 <div align="center">
+  <!-- Percentage widths ensure side-by-side on desktop, stacked naturally on mobile -->
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=susancodex&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=susancodex&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="48%" />
 </div>
