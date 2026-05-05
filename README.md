@@ -1,14 +1,19 @@
+<!-- Header Section -->
 <div align="center">
-  <!-- Profile Image at the Very Top in Circle -->
-  <img src="https://avatars.githubusercontent.com/u/180287919?v=4" alt="Susan Acharya" width="160" height="160" style="border-radius: 50%; object-fit: cover; border: 4px solid #6366F1; margin-bottom: 15px;" />
+  <!-- Profile Avatar: Perfect circle, fixed aspect ratio -->
+  <a href="https://www.susanacharya1.com.np" target="_blank">
+    <img src="https://avatars.githubusercontent.com/u/180287919?v=4" alt="Susan Acharya" width="150" height="150" style="border-radius: 50%; object-fit: cover; border: 4px solid #6366F1; margin-bottom: 20px;" />
+  </a>
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=150&section=header&text=Susan%20Acharya&fontSize=50&fontColor=ffffff&animation=fadeIn" width="100%" />
+  <!-- Waving Name Banner: Capped max-width so it doesn't stretch too wide on big monitors -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=120&section=header&text=Susan%20Acharya&fontSize=42&fontColor=ffffff&animation=fadeIn" alt="Header Banner" width="100%" style="max-width: 800px; display: block;" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=6366F1&center=true&vCenter=true&width=650&lines=Building+scalable+web+applications;Django+%7C+DRF+%7C+JavaScript+%7C+TypeScript;Open+to+internship+%26+collaboration+opportunities" alt="Typing SVG" width="100%" style="max-width: 650px; margin-top: 10px;" />
+  <!-- Typing Text: Scaled perfectly to match the width of the banner -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=800&color=6366F1&center=true&vCenter=true&width=600&lines=Building+scalable+web+applications;Django+%7C+DRF+%7C+JavaScript+%7C+TypeScript;Open+to+internship+%26+collaboration+opportunities" alt="Typing SVG" width="100%" style="max-width: 600px; margin-top: 12px;" />
 </div>
 
 <br/>
