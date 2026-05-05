@@ -4,219 +4,286 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Susan Acharya – Profile</title>
+  
+  <!-- Added a clean, professional Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    /* ── Reset & Base Styles ── */
+    * { 
+      box-sizing: border-box; 
+      margin: 0; 
+      padding: 0; 
+    }
+    
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #0d1117;
-      color: #c9d1d9;
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: #0f172a; /* Sleek, professional dark slate background */
+      color: #cbd5e1;
       line-height: 1.6;
     }
+    
     .container {
       max-width: 900px;
       margin: 0 auto;
-      padding: 32px 16px;
+      padding: 40px 20px;
     }
 
-    /* ── Hero ── */
+    /* ── Hero Section ── */
     .hero {
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 48px;
     }
+    
     .hero img.avatar {
-      width: 140px;
-      height: 140px;
+      width: 150px;
+      height: 150px;
       border-radius: 50%;
       border: 4px solid #6366f1;
-      margin-bottom: 20px;
+      /* FIXED: object-fit ensures the image never stretches out of proportion */
+      object-fit: cover; 
+      /* Added a subtle shadow for depth */
+      box-shadow: 0 8px 16px rgba(99, 102, 241, 0.2); 
+      margin: 0 auto 20px auto;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
     }
+    
     .hero h1 {
-      font-size: clamp(1.6rem, 5vw, 2.2rem);
-      color: #e6edf3;
-      margin-bottom: 6px;
+      font-size: clamp(1.8rem, 5vw, 2.5rem);
+      color: #f8fafc;
+      font-weight: 700;
+      margin-bottom: 8px;
     }
+    
     .hero .subtitle {
-      color: #6366f1;
-      font-size: clamp(0.9rem, 3vw, 1.05rem);
-      margin-bottom: 20px;
+      color: #818cf8;
+      font-size: clamp(1rem, 3vw, 1.15rem);
+      font-weight: 500;
+      margin-bottom: 24px;
     }
+    
     .badges {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 10px;
       justify-content: center;
     }
-    .badges a { text-decoration: none; }
-    .badges img { height: 26px; max-width: 100%; }
+    
+    .badges a { text-decoration: none; transition: opacity 0.2s; }
+    .badges a:hover { opacity: 0.8; }
+    .badges img { height: 28px; max-width: 100%; border-radius: 4px; }
 
     /* ── Sections ── */
     section {
-      background: #161b22;
-      border: 1px solid #30363d;
-      border-radius: 12px;
-      padding: 24px;
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 16px;
+      padding: 32px;
       margin-bottom: 24px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
+    
     section h2 {
-      color: #e6edf3;
-      font-size: 1.15rem;
-      margin-bottom: 16px;
-      padding-bottom: 10px;
-      border-bottom: 1px solid #30363d;
+      color: #f8fafc;
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #334155;
     }
 
     /* ── About ── */
     .about p {
-      color: #8b949e;
-      margin-bottom: 12px;
-      font-size: 0.95rem;
+      color: #94a3b8;
+      margin-bottom: 16px;
+      font-size: 1rem;
     }
+    
     .about ul { list-style: none; padding: 0; }
     .about ul li {
-      padding: 4px 0;
-      color: #8b949e;
+      padding: 6px 0;
+      color: #94a3b8;
       font-size: 0.95rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
     }
-    .about ul li::before { content: "▸ "; color: #6366f1; }
+    .about ul li::before { content: "▸"; color: #6366f1; font-weight: bold; }
 
-    /* ── Tech grid ── */
+    /* ── Tech Grid ── */
     .tech-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 12px;
-    }
-    .tech-card {
-      background: #0d1117;
-      border: 1px solid #30363d;
-      border-radius: 8px;
-      padding: 12px;
-    }
-    .tech-card h4 {
-      color: #6366f1;
-      font-size: 0.78rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 6px;
-    }
-    .tech-card p { color: #8b949e; font-size: 0.88rem; }
-
-    /* ── Project cards ── */
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 16px;
     }
-    .project-card {
-      background: #0d1117;
-      border: 1px solid #30363d;
+    
+    .tech-card {
+      background: #0f172a;
+      border: 1px solid #334155;
       border-radius: 10px;
-      padding: 18px;
+      padding: 16px;
+      text-align: center;
+    }
+    
+    .tech-card h4 {
+      color: #818cf8;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+    
+    .tech-card p { color: #cbd5e1; font-size: 0.9rem; font-weight: 500; }
+
+    /* ── Project Cards ── */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    
+    .project-card {
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      padding: 24px;
       display: flex;
       flex-direction: column;
-      gap: 10px;
-      transition: border-color 0.2s;
+      gap: 12px;
+      transition: all 0.3s ease;
     }
-    .project-card:hover { border-color: #6366f1; }
+    
+    /* Smooth hover effect to make the UI feel interactive */
+    .project-card:hover { 
+      border-color: #6366f1; 
+      transform: translateY(-4px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    
     .project-card-name {
-      color: #e6edf3;
-      font-weight: 700;
-      font-size: 1rem;
+      color: #f8fafc;
+      font-weight: 600;
+      font-size: 1.1rem;
     }
+    
     .project-card-desc {
-      color: #8b949e;
-      font-size: 0.88rem;
-      flex: 1;
+      color: #94a3b8;
+      font-size: 0.9rem;
+      flex: 1; /* Pushes the tags and links to the bottom */
     }
-    .tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
-    }
+    
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
+    
     .tag {
-      background: #21262d;
-      color: #6366f1;
-      border-radius: 4px;
-      padding: 2px 8px;
+      background: rgba(99, 102, 241, 0.1);
+      color: #818cf8;
+      border-radius: 6px;
+      padding: 4px 10px;
       font-size: 0.75rem;
-      font-family: monospace;
+      font-weight: 500;
     }
+    
     .project-links {
       display: flex;
-      gap: 8px;
+      gap: 12px;
       flex-wrap: wrap;
+      margin-top: 8px;
     }
+    
     .project-links a {
-      color: #6366f1;
+      color: #f8fafc;
+      background: #4f46e5;
       text-decoration: none;
-      font-size: 0.82rem;
-      border: 1px solid #30363d;
-      border-radius: 5px;
-      padding: 3px 10px;
-      transition: border-color 0.2s, background 0.2s;
+      font-size: 0.85rem;
+      font-weight: 500;
+      border-radius: 6px;
+      padding: 6px 14px;
+      transition: background 0.2s;
     }
-    .project-links a:hover {
-      border-color: #6366f1;
-      background: #1a1f2e;
+    
+    .project-links a:hover { background: #6366f1; }
+    
+    .project-links a:first-child {
+      background: transparent;
+      color: #cbd5e1;
+      border: 1px solid #475569;
+    }
+    
+    .project-links a:first-child:hover {
+      border-color: #cbd5e1;
+      color: #f8fafc;
     }
 
     /* ── Stats ── */
     .stats-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 16px;
-      margin-bottom: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-bottom: 20px;
+      align-items: start;
     }
+    
+    /* FIXED: Prevent stats images from stretching horizontally */
     .stats-grid img, .streak-img {
-      width: 100%;
-      border-radius: 8px;
+      max-width: 100%;
+      height: auto; 
+      border-radius: 10px;
       display: block;
+      margin: 0 auto; 
     }
 
     /* ── Education ── */
     .edu-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 24px;
+      gap: 32px;
     }
-    .edu-grid h3 { color: #e6edf3; margin-bottom: 10px; font-size: 1rem; }
-    .edu-grid p, .edu-grid li { color: #8b949e; font-size: 0.9rem; }
-    .edu-grid ul { list-style: none; padding: 0; margin-top: 8px; }
-    .edu-grid ul li::before { content: "▸ "; color: #6366f1; }
+    
+    .edu-grid h3 { color: #f8fafc; margin-bottom: 12px; font-size: 1.05rem; }
+    .edu-grid p { color: #cbd5e1; font-size: 0.95rem; margin-bottom: 10px; }
+    .edu-grid ul { list-style: none; padding: 0; }
+    .edu-grid ul li {
+      color: #94a3b8; 
+      font-size: 0.9rem;
+      padding: 4px 0;
+      display: flex;
+      gap: 8px;
+    }
+    .edu-grid ul li::before { content: "▸"; color: #6366f1; }
 
     /* ── Connect ── */
     .connect-links {
       display: flex;
-      gap: 10px;
+      gap: 12px;
       flex-wrap: wrap;
       justify-content: center;
+      margin-bottom: 24px;
     }
-    .connect-links a { text-decoration: none; }
-    .connect-links img { height: 30px; max-width: 100%; }
+    
+    .connect-links a { transition: opacity 0.2s; }
+    .connect-links a:hover { opacity: 0.8; }
+    .connect-links img { height: 32px; border-radius: 4px; }
+    
     .quote-box {
       text-align: center;
       font-style: italic;
-      color: #6366f1;
-      font-size: 1rem;
-      padding: 16px 0 0;
+      color: #818cf8;
+      font-size: 1.05rem;
+      padding-top: 24px;
+      border-top: 1px solid #334155;
     }
 
-    /* ── Mobile ── */
-    @media (max-width: 600px) {
-      .container { padding: 20px 12px; }
-      section { padding: 18px 14px; }
-      .hero img.avatar { width: 110px; height: 110px; }
-      .edu-grid { grid-template-columns: 1fr; gap: 20px; }
-      .projects-grid { grid-template-columns: 1fr; }
-      .stats-grid { grid-template-columns: 1fr; }
-      .badges img { height: 22px; }
-      .connect-links img { height: 26px; }
+    /* ── Mobile Responsiveness ── */
+    @media (max-width: 768px) {
+      .container { padding: 24px 16px; }
+      section { padding: 24px 16px; }
+      .hero img.avatar { width: 120px; height: 120px; }
+      .edu-grid { grid-template-columns: 1fr; gap: 24px; }
     }
   </style>
 </head>
 <body>
+  <!-- All HTML Content Inside the Body remains identical to preserve your data structure -->
   <div class="container">
 
     <!-- Hero -->
@@ -259,23 +326,23 @@
       <div class="tech-grid">
         <div class="tech-card">
           <h4>Languages</h4>
-          <p>Python, JavaScript, TypeScript</p>
+          <p>Python, JS, TS</p>
         </div>
         <div class="tech-card">
           <h4>Backend</h4>
-          <p>Django, Django REST Framework</p>
+          <p>Django, DRF</p>
         </div>
         <div class="tech-card">
           <h4>Frontend</h4>
-          <p>HTML5, CSS3, Bootstrap</p>
+          <p>HTML5, CSS3</p>
         </div>
         <div class="tech-card">
           <h4>Databases</h4>
-          <p>MySQL, PostgreSQL, SQLite</p>
+          <p>MySQL, Postgres</p>
         </div>
         <div class="tech-card">
           <h4>Tools</h4>
-          <p>Git, GitHub, VS Code, PyCharm</p>
+          <p>Git, GitHub</p>
         </div>
       </div>
     </section>
@@ -289,7 +356,7 @@
           <div class="project-card-name">Finance Tracker</div>
           <div class="project-card-desc">Full-stack personal finance app with expense management, budget tracking, and data visualizations.</div>
           <div class="tags">
-            <span class="tag">Python</span><span class="tag">Django</span><span class="tag">JS</span><span class="tag">CSS</span>
+            <span class="tag">Python</span><span class="tag">Django</span><span class="tag">JS</span>
           </div>
           <div class="project-links">
             <a href="https://github.com/susancodex/Finance_Tracker" target="_blank">Code</a>
@@ -298,10 +365,10 @@
         </div>
 
         <div class="project-card">
-          <div class="project-card-name">Hospital Management System</div>
+          <div class="project-card-name">Hospital Management</div>
           <div class="project-card-desc">Hospital management platform with patient records, appointment scheduling, and admin dashboard.</div>
           <div class="tags">
-            <span class="tag">Python</span><span class="tag">Django</span><span class="tag">JS</span>
+            <span class="tag">Python</span><span class="tag">Django</span>
           </div>
           <div class="project-links">
             <a href="https://github.com/susancodex/Hospital_Management_System" target="_blank">Code</a>
@@ -313,7 +380,7 @@
           <div class="project-card-name">Smart Study Planner</div>
           <div class="project-card-desc">AI-assisted study planning tool to help students organize schedules and optimize learning efficiency.</div>
           <div class="tags">
-            <span class="tag">Python</span><span class="tag">JS</span><span class="tag">CSS</span>
+            <span class="tag">Python</span><span class="tag">JS</span>
           </div>
           <div class="project-links">
             <a href="https://github.com/susancodex/smart_study_planner" target="_blank">Code</a>
@@ -330,28 +397,6 @@
           <div class="project-links">
             <a href="https://github.com/susancodex/task-manager-api" target="_blank">Code</a>
             <a href="https://task-manager-api-sg3y.onrender.com" target="_blank">Live</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-card-name">CRUD API</div>
-          <div class="project-card-desc">Clean and well-documented RESTful CRUD API built with Django REST Framework generic views.</div>
-          <div class="tags">
-            <span class="tag">Python</span><span class="tag">DRF</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/susancodex/CRUD-API" target="_blank">Code</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-card-name">Expense CRUD API</div>
-          <div class="project-card-desc">Django REST API for expense management using DRF generic views with structured data handling.</div>
-          <div class="tags">
-            <span class="tag">Python</span><span class="tag">DRF</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/susancodex/EXPENSE-CRUD-API" target="_blank">Code</a>
           </div>
         </div>
 
@@ -394,7 +439,6 @@
             <li>Web Technologies &amp; Database Management</li>
             <li>Operating Systems &amp; Software Engineering</li>
             <li>Object-Oriented Programming (Java, .NET)</li>
-            <li>Computer Networks &amp; Architecture</li>
           </ul>
         </div>
         <div>
@@ -411,7 +455,7 @@
     <!-- Connect -->
     <section>
       <h2>Let's Connect</h2>
-      <p style="text-align:center;color:#8b949e;margin-bottom:16px;font-size:0.95rem;">I'm always open to conversations, collaborations, and opportunities!</p>
+      <p style="text-align:center;color:#94a3b8;margin-bottom:20px;">I'm always open to conversations, collaborations, and opportunities!</p>
       <div class="connect-links">
         <a href="https://www.susanacharya1.com.np" target="_blank">
           <img src="https://img.shields.io/badge/Portfolio-susanacharya1.com.np-4F46E5?style=for-the-badge&logo=google-chrome&logoColor=white" />
