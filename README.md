@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Susan Acharya
+# Susan Acharya
 ### Backend-Focused Full Stack Developer
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-susanacharya1.com.np-4F46E5?style=flat-square&logo=google-chrome&logoColor=white)](https://www.susanacharya1.com.np)
@@ -9,8 +9,8 @@
 
 ---
 
-### 👨‍💻 About Me
-I am a **Software Engineer** specializing in robust backend architectures. I transform complex requirements into scalable, maintainable web applications using **Python** and **Django**. Passionate about clean code, RESTful API design, and creating seamless full-stack integrations.
+### 👨‍💻 Professional Summary
+I am a **Software Engineer** specializing in robust backend architectures. I transform complex requirements into scalable, maintainable web applications using **Python** and **Django**. I am passionate about clean code, RESTful API design, and creating seamless full-stack integrations.
 
 ---
 
