@@ -7,7 +7,6 @@
 <br/>
 
 ![Academic](https://img.shields.io/badge/Academic-B.Sc.%20CSIT-7928CA?style=for-the-badge&logo=probot&logoColor=white)
-![Location](https://img.shields.io/badge/Location-Kathmandu,-Nepal-4B0082?style=for-the-badge&logo=location&logoColor=white)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Production--Ready-8A2BE2?style=for-the-badge&logo=vercel&logoColor=white)](https://www.susanacharya1.com.np)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Susan_Acharya-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/susan-acharya1618/)
 [![Email](https://img.shields.io/badge/Email-susanacharya.sp@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:susanacharya.sp@gmail.com)
