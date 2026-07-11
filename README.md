@@ -25,7 +25,7 @@
 
 ## ✦ About
 
-I am a backend-focused Full Stack Developer specializing in Python, Django, and scalable API architecture. Driven by a strong product engineering mindset, I design high-performance RESTful APIs via Django REST Framework (DRF) and FastAPI, manage complex relational database modeling with PostgreSQL, and build reliable asynchronous systems using Celery and Docker. 
+Backend-focused Software Engineer specializing in Python, Django, and scalable API architecture. Driven by a rigorous product engineering mindset, I design high-performance RESTful APIs via Django REST Framework (DRF) and FastAPI, manage complex relational database modeling with PostgreSQL, and build reliable asynchronous systems using Celery and Docker. 
 
 Beyond traditional backend architecture, I possess domain expertise in seamlessly integrating AI capabilities—such as the Google Gemini API—into robust, multi-provider SaaS environments. I am deeply passionate about shipping optimized, production-grade applications, enforcing clean MVC/MVT patterns, and continuously scaling codebase reliability within agile workflows.
 
@@ -199,14 +199,6 @@ Completed hands-on enterprise-grade training in Python and Django, strictly adhe
 
 ---
 
-## ✦ Contribution Snake
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/susancodex/susancodex/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
-</div>
-
----
-
 ## ✦ Current Focus
 
 ```yaml
@@ -222,5 +214,5 @@ current_focus:
     - Asynchronous Event-Driven Architectures
   open_to:
     - Software Engineering Internships
-    - Full Stack Developer Opportunities
+    - Backend Developer Opportunities
     - Open Source Collaborations
