@@ -208,7 +208,7 @@ Completed hands-on training in Python and Django, gaining practical experience i
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=susancodex&theme=algolia&no-frame=true&column=7&margin-w=8&margin-h=8" />
+<img src="https://github-profile-trophy.vercel.app/?username=susancodex&theme=discord&no-frame=true&no-bg=true&row=1&column=7" />
 
 </div>
 
