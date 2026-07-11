@@ -1,276 +1,226 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0C29,50:302B63,100:24243E&height=220&section=header&text=Susan%20Acharya&fontSize=48&fontColor=C9B8FF&animation=fadeIn&fontAlignY=38&desc=Backend-Focused%20Full%20Stack%20Developer&descAlignY=58&descAlign=50" width="100%"/>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=7928CA&height=250&section=header&text=Susan%20Acharya&fontSize=80&fontAlignY=35&animation=twinkling&desc=Backend-focused%20Full%20Stack%20Developer&descAlignY=55&descSize=20)
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Python+%7C+Django+%7C+DRF+%7C+FastAPI;Building+Scalable+REST+APIs;PostgreSQL+%7C+Celery+%7C+Docker;Full+Stack+Engineer+%E2%80%94+Kathmandu%2C+Nepal" alt="Typing SVG" />
-</a>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A970FF&center=true&vCenter=true&width=600&lines=Software+Engineer;Backend+%26+Django+Specialist;Building+Production-Level+APIs;Full+Stack+Developer)](https://git.io/typing-svg)
 
 <br/>
 
-![B.Sc CSIT](https://img.shields.io/badge/B.Sc-CSIT-6D28D9?style=flat-square&labelColor=1a1a2e)
-![Tribhuvan University](https://img.shields.io/badge/Tribhuvan%20University-2022--2026-4C1D95?style=flat-square&labelColor=1a1a2e)
-![Location](https://img.shields.io/badge/📍-Kathmandu,%20Nepal-8B5CF6?style=flat-square&labelColor=1a1a2e)
+![Academic](https://img.shields.io/badge/Academic-B.Sc.%20CSIT-7928CA?style=for-the-badge&logo=probot&logoColor=white)
+![Location](https://img.shields.io/badge/Location-Kathmandu,-Nepal-4B0082?style=for-the-badge&logo=location&logoColor=white)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Production--Ready-8A2BE2?style=for-the-badge&logo=vercel&logoColor=white)](https://www.susanacharya1.com.np)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Susan_Acharya-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/susan-acharya1618/)
+[![Email](https://img.shields.io/badge/Email-susanacharya.sp@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:susanacharya.sp@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Enterprise-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/susancodex)
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://www.susanacharya1.com.np)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/susan-acharya1618/)
-[![Gmail](https://img.shields.io/badge/Email-4C1D95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:susanacharya.sp@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-1a1a2e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/susancodex)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=susancodex&color=8B5CF6&style=flat-square&label=Profile+Views)
-![Followers](https://img.shields.io/github/followers/susancodex?color=7C3AED&style=flat-square&label=Followers)
-![Stars](https://img.shields.io/github/stars/susancodex?color=6D28D9&style=flat-square&label=Stars)
+![Profile Views](https://komarev.com/ghpvc/?username=susancodex&label=Profile%20Views&color=7928CA&style=flat-square)
+![Followers](https://img.shields.io/github/followers/susancodex?label=Followers&style=flat-square&color=8A2BE2)
+![Stars](https://img.shields.io/github/stars/susancodex?label=Stars&style=flat-square&color=4B0082)
 
 </div>
 
 ---
 
-## 🧠 About Me
+## ✦ About
 
-```yaml
-name: Susan Acharya
-role: Backend-Focused Full Stack Developer
-location: Kathmandu, Nepal
-focus: Python · Django · DRF · FastAPI · Scalable API Architecture
-```
+I am a backend-focused Full Stack Developer specializing in Python, Django, and scalable API architecture. Driven by a strong product engineering mindset, I design high-performance RESTful APIs via Django REST Framework (DRF) and FastAPI, manage complex relational database modeling with PostgreSQL, and build reliable asynchronous systems using Celery and Docker. 
 
-I'm a backend-focused Full Stack Developer specializing in **Python**, **Django**, and scalable **API architecture**. I design high-performance RESTful APIs with **Django REST Framework** and **FastAPI**, model complex relational data with **PostgreSQL**, and build reliable asynchronous systems using **Celery**, **Redis**, and **Docker**.
+Beyond traditional backend architecture, I possess domain expertise in seamlessly integrating AI capabilities—such as the Google Gemini API—into robust, multi-provider SaaS environments. I am deeply passionate about shipping optimized, production-grade applications, enforcing clean MVC/MVT patterns, and continuously scaling codebase reliability within agile workflows.
 
-I bring a product-engineering mindset to every build — from SaaS platforms integrating AI providers to production-grade hospital and finance management systems — with an emphasis on clean architecture, query optimization, and secure, role-based API design. I collaborate inside agile workflows using Git/GitHub, and I care about shipping code that's not just functional, but production-grade and maintainable.
-
-**🎯 Open To:** Backend Engineering roles · Full Stack Engineering roles · Django/DRF-focused teams · API architecture & platform engineering
+**Open To:** High-impact engineering roles, full-stack production-level projects, and collaborative technical internships.
 
 ---
 
-## 🛠️ Tech Stack
+## ✦ Tech Stack
 
-**Languages**
-
-![Python](https://skillicons.dev/icons?i=python) ![JavaScript](https://skillicons.dev/icons?i=javascript) ![Java](https://skillicons.dev/icons?i=java) ![HTML5](https://skillicons.dev/icons?i=html) ![CSS3](https://skillicons.dev/icons?i=css)
-
-**Frontend Engineering**
-
-![React](https://skillicons.dev/icons?i=react) ![Next.js](https://skillicons.dev/icons?i=nextjs) ![TailwindCSS](https://skillicons.dev/icons?i=tailwind)
-
-**Backend & Databases**
-
-![Django](https://skillicons.dev/icons?i=django) ![FastAPI](https://skillicons.dev/icons?i=fastapi) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![MySQL](https://skillicons.dev/icons?i=mysql) ![SQLite](https://skillicons.dev/icons?i=sqlite)
-
-**Cloud, DevOps & Tooling**
-
-![Docker](https://skillicons.dev/icons?i=docker) ![Redis](https://skillicons.dev/icons?i=redis) ![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![Postman](https://skillicons.dev/icons?i=postman) ![Linux](https://skillicons.dev/icons?i=linux)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=py,js,java,html,css&theme=dark" alt="Languages" />
+  <br/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark" alt="Frontend" />
+  <br/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=django,fastapi,postgres,mysql,sqlite&theme=dark" alt="Backend & Databases" />
+  <br/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=docker,redis,postman,git,github,linux&theme=dark" alt="Cloud, DevOps & Tooling" />
+</div>
 
 ---
 
-## 🤖 AI / ML Integration Expertise
+## ✦ AI / ML Expertise
 
 | Domain | Proficiency | Details |
-|---|:---:|---|
-| **LLM API Integration** | ⭐⭐⭐⭐ | Integrated Google Gemini API into a production SaaS with multi-provider AI failover |
-| **AI-Assisted Application Design** | ⭐⭐⭐⭐ | Built AI-powered study planning, quiz, and flashcard generation features (BrainPilot AI) |
-| **Async AI Task Processing** | ⭐⭐⭐⭐ | Used Celery + Redis to handle background AI generation tasks reliably at scale |
-| **Data Science Foundations** | ⭐⭐⭐ | Completed *Python for Data Science* (Udemy) |
+| :--- | :--- | :--- |
+| **API Engineering & Integrations** | Applied | Integrated Google Gemini API with multi-provider AI failover for reliable, production-grade learning assistance systems. |
+| **Generative Workflows** | Intermediate | Architected deterministic prompt engineering pipelines to seamlessly generate dynamic quizzes, flashcards, and study plans. |
+| **Async System Orchestration** | Advanced | Deployed Redis and Celery to decouple heavy AI-generation workloads from main thread operations within Django environments. |
 
 ---
 
-## 🚀 Featured Projects
+## ✦ Featured Projects
 
 <details>
-<summary><b>🧩 BrainPilot AI — Full-Stack Study Companion SaaS (2026)</b></summary>
+<summary><b>BrainPilot AI — Full-Stack Study Companion SaaS</b></summary>
 <br/>
 
-Built an AI-powered study companion helping students create study plans, generate quizzes and flashcards, revise topics, and track academic progress — with multi-provider AI failover for reliability.
+Built an AI-powered study companion SaaS helping students create study plans, generate quizzes/flashcards, revise topics, and track academic progress.
 
-| Category | Detail |
-|---|---|
+| Attribute | Details |
+| :--- | :--- |
 | **Stack** | React 19, Django REST Framework, PostgreSQL, Celery, Redis, Google Gemini API |
-| **Scale** | Full-stack SaaS with async background task processing |
-| **Performance** | Celery-driven async task queue for non-blocking AI generation |
-| **Security** | JWT authentication |
-| **Impact** | End-to-end AI learning assistant — plans, quizzes, flashcards, progress tracking |
-| **Repository** | [GitHub](https://github.com/susancodex/BrainPilot-AI.git) |
+| **Scale** | Production-level architecture with background task processing |
+| **Performance** | Asynchronous operations via Celery to efficiently decouple heavy AI-generation tasks |
+| **Security** | Secure JWT authentication with strict role-based RESTful API endpoints |
+| **Impact** | Engineered seamless multi-provider AI failover ensuring high availability for content generation |
+| **Repository** | [View Source Code](https://github.com/susancodex/BrainPilot-AI.git) |
 
-Developed a full-stack app with React 19, Django REST Framework, PostgreSQL, JWT authentication, and Celery for scalable background/async task processing, integrating Google Gemini with multi-provider AI failover for reliable AI-powered learning assistance.
-
+*Professional Project Explanation:*
+Engineered a scalable full-stack application leveraging a robust Django/DRF backend and an optimized React frontend. Designed sophisticated relational data models for subjects, topics, and study sessions while utilizing Redis for caching and Celery for asynchronous AI workloads.
 </details>
 
 <details>
-<summary><b>🏥 Hospital Management System — Production-Grade Platform (2025)</b></summary>
+<summary><b>Hospital Management System — Production-Grade Platform</b></summary>
 <br/>
 
-A scalable full-stack hospital management platform covering patients, appointments, doctors, and reports.
+Developed and deployed a scalable full-stack hospital management platform catering to patients, appointments, doctors, and real-time reports.
 
-| Category | Detail |
-|---|---|
+| Attribute | Details |
+| :--- | :--- |
 | **Stack** | Django, DRF, React, PostgreSQL, Docker, Bootstrap |
-| **Scale** | Multi-role platform: patients, doctors, appointments, reports |
-| **Performance** | Optimized PostgreSQL backend for efficient data management |
-| **Security** | Role-based authentication and access control |
-| **Impact** | Production-grade platform integrating frontend and backend via secure RESTful APIs |
-| **Repository** | [Live Demo](https://hospital-management-system-frontend-hsbj.onrender.com) · [GitHub](https://github.com/susancodex/Hospital_Management_System.git) |
+| **Scale** | Comprehensive multi-tenant capabilities for distinct user roles |
+| **Performance** | Optimized PostgreSQL backend queries for efficient clinical data management |
+| **Security** | Built secure REST APIs with strict role-based authentication and modular access control |
+| **Impact** | Streamlined facility operations integrating frontend interfaces with robust backend APIs |
+| **Repository** | [View Source Code](https://github.com/susancodex/Hospital_Management_System.git) |
 
-Built secure REST APIs with role-based authentication and an optimized PostgreSQL backend, integrating frontend and backend via RESTful APIs with CRUD operations, filtering, and secure access control.
-
+*Professional Project Explanation:*
+A production-grade platform enforcing strict separation of concerns via robust RESTful APIs. Implemented complex filtering schemas, high-throughput CRUD operations, and scalable, containerized deployment strategies via Docker orchestration.
 </details>
 
 <details>
-<summary><b>💰 Finance Tracker — Budgetary Analytics Platform (2025)</b></summary>
+<summary><b>Finance Tracker — Budgetary Analytics Platform</b></summary>
 <br/>
 
-A backend-driven finance management system for tracking income, expenses, budgets, and analytics.
+Built and deployed a backend-driven finance management system designed for tracking income, expenses, budgets, and actionable analytics.
 
-| Category | Detail |
-|---|---|
+| Attribute | Details |
+| :--- | :--- |
 | **Stack** | Django, DRF, React, PostgreSQL, REST APIs |
-| **Scale** | Full transaction tracking with categorized budgeting and analytics dashboard |
-| **Performance** | Cached API responses for dashboard reporting |
-| **Security** | Authenticated REST API access |
-| **Impact** | Backend-driven analytics platform for personal finance management |
-| **Repository** | [Live Demo](https://finance-tracker-frontend-zeid.onrender.com/login) · [GitHub](https://github.com/susancodex/Finance_Tracker.git) · [Video Demo](https://youtu.be/zWdMOG_oYuU) |
+| **Scale** | High-throughput financial transaction ledger modeling |
+| **Performance** | Optimized and cached API responses for real-time, low-latency dashboard reporting |
+| **Security** | Deep transaction-level data isolation utilizing robust authentication mechanisms |
+| **Impact** | Automated granular budget categorization to reduce manual financial tracking friction |
+| **Repository** | [View Source Code](https://github.com/susancodex/Finance_Tracker.git) |
 
-Designed REST APIs with authentication, transaction categorization, and optimized, cached API responses for dashboard reporting.
-
+*Professional Project Explanation:*
+Architected a financial engine featuring deeply optimized queries for aggregated analytical reporting. Implemented advanced caching strategies to ensure instantaneous dashboard rendering and seamless real-time data visualization.
 </details>
 
 ---
 
-## 💼 Experience
+## ✦ Experience
 
-**Python with Django Training** — Cloud Web Pvt. Ltd.
-📍 Kathmandu, Nepal · 2025
+### Python with Django Training
+**Cloud Web Pvt. Ltd. | Kathmandu, Nepal**
+*2025*
 
-Completed hands-on training in Python and Django, gaining practical experience in backend web development using the Django MVT architecture, and collaborated with the wider team via Git/GitHub following clean coding practices.
+Completed hands-on enterprise-grade training in Python and Django, strictly adhering to MVT architecture and clean coding practices.
 
-- Built web applications by implementing Django Models, Views, Forms, Templates, and CRUD functionality
-- Developed RESTful APIs using Django REST Framework and tested API endpoints
-- Worked with MySQL and SQLite databases for data modeling, querying, and debugging
+* Built robust web applications by implementing Django Models, Views, Forms, Templates, and comprehensive CRUD functionality.
+* Developed scalable RESTful APIs utilizing Django REST Framework and executed rigorous testing of API endpoints.
+* Engineered optimal data modeling, crafted structured queries, and performed advanced debugging within MySQL and SQLite relational databases.
+* Continuously integrated with peers via Git/GitHub version control, collaborating on projects enforcing production-ready software engineering standards.
 
-`Python` `Django` `DRF` `MVT Architecture` `MySQL` `SQLite` `Git/GitHub`
+`Python` `Django` `Django REST Framework` `SQL` `Git`
 
 ---
 
-## 🏆 Achievements
+## ✦ Achievements
 
 <div align="center">
 
 | Recognition | Details |
-|---|---|
-| 🏁 **Code Yatra 48-Hour Hackathon** | Active Competitor — co-engineered and shipped an end-to-end full-stack collaborative software solution within strict time bounds |
-| 🌐 **Open Source Engagement** | Maintains software engineering best practices through publicly audited personal repositories and production mock environments on GitHub |
+| :--- | :--- |
+| 🏆 **Hackathon Active Competitor** | **Code Yatra 48-Hour Hackathon**: Co-engineered and successfully shipped an end-to-end full-stack collaborative software solution under strict time bounds. |
+| 🌟 **Open Source Maintainer** | Proactively uphold software engineering best practices through publicly audited personal repositories and production mock environments on GitHub. |
 
 </div>
 
 ---
 
-## 📜 Certifications
+## ✦ Certifications
 
-**Udemy**
+### IBM
+[![SQL and Relational Databases](https://img.shields.io/badge/IBM-SQL_and_Relational_Databases-052FAD?style=for-the-badge&logo=ibm&logoColor=white)](https://courses.cognitiveclass.ai/certificates/561bfa390fb54c9fbf6843d52a81fc12)
 
-[![Python for Data Science](https://img.shields.io/badge/Python%20for%20Data%20Science-Udemy-A78BFA?style=flat-square&labelColor=1a1a2e)](https://www.udemy.com/certificate/UC-175f7a52-2f5f-486c-a9d4-039f953669ef/)
-
-**IBM**
-
-[![SQL and Relational Databases](https://img.shields.io/badge/SQL%20and%20Relational%20Databases-IBM-6D28D9?style=flat-square&labelColor=1a1a2e)](https://courses.cognitiveclass.ai/certificates/561bfa390fb54c9fbf6843d52a81fc12)
+### Udemy
+[![Python for Data Science](https://img.shields.io/badge/Udemy-Python_for_Data_Science-A435F0?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/certificate/UC-175f7a52-2f5f-486c-a9d4-039f953669ef/)
 
 ---
 
-## 💻 Coding Profiles
+## ✦ Coding Profiles
 
 <div align="center">
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-add--your--handle-1a1a2e?style=for-the-badge&logo=leetcode&logoColor=FFA116)](#)
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-add--your--handle-1a1a2e?style=for-the-badge&logo=geeksforgeeks&logoColor=2F8D46)](#)
-[![HackerRank](https://img.shields.io/badge/HackerRank-add--your--handle-1a1a2e?style=for-the-badge&logo=hackerrank&logoColor=2EC866)](#)
-[![CodeChef](https://img.shields.io/badge/CodeChef-add--your--handle-1a1a2e?style=for-the-badge&logo=codechef&logoColor=A78BFA)](#)
-
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode" />
+  <img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=GeeksforGeeks&logoColor=white" alt="GeeksforGeeks" />
+  <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=HackerRank&logoColor=white" alt="HackerRank" />
+  <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=CodeChef&logoColor=white" alt="CodeChef" />
 </div>
 
 ---
 
-## 📊 GitHub Analytics
+## ✦ GitHub Analytics
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=susancodex&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=C9B8FF" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=susancodex&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=A78BFA&currStreakLabel=C9B8FF" width="48%"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=susancodex&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9B8FF" width="48%"/>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=susancodex&theme=radical&hide_border=true&include_all_commits=true&count_private=true&title_color=7928CA&icon_color=8A2BE2" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=susancodex&theme=radical&hide_border=true&ring=7928CA&fire=8A2BE2" alt="GitHub Streak" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=susancodex&theme=radical&hide_border=true&layout=compact&title_color=7928CA" alt="Top Languages" />
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## ✦ GitHub Trophies
 
 <div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=susancodex&theme=discord&no-frame=true&no-bg=true&row=1&column=7" />
-
+  <img src="https://github-profile-trophy.vercel.app/?username=susancodex&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" />
 </div>
 
 ---
 
-## 📈 Contribution Activity
+## ✦ Contribution Activity
 
 <div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=susancodex&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=A78BFA&line=8B5CF6&point=C9B8FF" width="100%"/>
-
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=susancodex&theme=react-dark&hide_border=true&color=7928CA" alt="Contribution Graph" />
 </div>
 
 ---
 
-## 🐍 Contribution Snake
+## ✦ Contribution Snake
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/susancodex/susancodex/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-
+  <img src="https://raw.githubusercontent.com/susancodex/susancodex/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
 </div>
 
 ---
 
-## 🎯 Current Focus
+## ✦ Current Focus
 
 ```yaml
-learning:
-  - Advanced FastAPI patterns and async architecture
-  - System design for scalable backend services
-building:
-  - AI-integrated SaaS products with production-grade backend architecture
-  - Secure, role-based REST API systems
-exploring:
-  - Multi-provider AI failover strategies
-  - Query optimization at scale
-open_to:
-  - Backend Engineering roles
-  - Full Stack Engineering roles
-  - API architecture & platform engineering opportunities
-```
-
----
-
-## 📫 Connect With Me
-
-<div align="center">
-
-[![Gmail](https://img.shields.io/badge/Gmail-susanacharya.sp%40gmail.com-4C1D95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:susanacharya.sp@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/susan-acharya1618/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-1a1a2e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/susancodex)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://www.susanacharya1.com.np)
-
-</div>
-
----
-
-<div align="center">
-
-*"Building reliable systems, one optimized query at a time."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243E,50:302B63,100:0F0C29&height=120&section=footer" width="100%"/>
-
-</div>
+current_focus:
+  learning:
+    - Advanced Systems Design
+    - Scalable Microservices Architecture
+  building:
+    - Production-Level REST APIs via Django & Celery
+    - AI-Driven SaaS Applications
+  exploring:
+    - Cloud-Native Deployments (Docker/Kubernetes)
+    - Asynchronous Event-Driven Architectures
+  open_to:
+    - Software Engineering Internships
+    - Full Stack Developer Opportunities
+    - Open Source Collaborations
