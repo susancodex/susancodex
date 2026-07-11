@@ -172,24 +172,26 @@ Completed hands-on enterprise-grade training in Python and Django, strictly adhe
 
 ---
 
-## ✦ GitHub Analytics
+## 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=susancodex&theme=radical&hide_border=true&include_all_commits=true&count_private=true&title_color=7928CA&icon_color=8A2BE2" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=susancodex&theme=radical&hide_border=true&ring=7928CA&fire=8A2BE2" alt="GitHub Streak" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=susancodex&theme=radical&hide_border=true&layout=compact&title_color=7928CA" alt="Top Languages" />
-</div>
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=susancodex&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=susancodex&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
 
----
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=susancodex&theme=tokyonight" width="100%" />
+</p>
 
-## ✦ GitHub Trophies
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=susancodex&theme=tokyonight" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=susancodex&theme=tokyonight" width="49%" />
+</p>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=susancodex&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" />
-</div>
-
----
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=susancodex&theme=tokyonight" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=susancodex&theme=tokyonight&utcOffset=5.75" width="49%" />
+</p>
 
 ## ✦ Contribution Activity
 
